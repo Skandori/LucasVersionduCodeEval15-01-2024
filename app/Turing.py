@@ -8,7 +8,7 @@ def decomposer(n):
         rep=(c,d,u)
     return rep
 
-def somme(c,d,u):
+def somme(d,c,u):
     if c>9 or c<0 or d>9 or c<0 or u>9 or u<0: 
         rep=None
     else:
